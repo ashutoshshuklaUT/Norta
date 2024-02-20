@@ -1,0 +1,17 @@
+,288,297,299,301
+max_flood_level_w_5_05,14,8,10,11
+max_flood_level_w_5_10,13,8,8,10
+max_flood_level_w_5_15,10,9,6,11
+max_flood_level_w_5_25,10,11,7,13
+max_flood_level_wnw_5_05,11,7,7,9
+max_flood_level_wnw_5_10,10,7,6,9
+max_flood_level_wnw_5_15,9,9,6,11
+max_flood_level_wnw_5_25,9,9,7,12
+max_flood_level_nw_5_05,9,6,5,8
+max_flood_level_nw_5_10,8,6,4,9
+max_flood_level_nw_5_15,6,7,4,10
+max_flood_level_nw_5_25,7,7,5,10
+max_flood_level_nnw_5_05,7,5,3,7
+max_flood_level_nnw_5_10,5,5,1,8
+max_flood_level_nnw_5_15,3,6,1,8
+max_flood_level_nnw_5_25,4,4,2,8
