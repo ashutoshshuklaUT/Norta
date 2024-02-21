@@ -19,6 +19,6 @@ reference_bus: 313
 
 # Solver Parameters
 mip_gap: 0.005
-time_limit: 21600 
+time_limit: 32400 
 solver_type: 'gurobi'
 solver_method: 2

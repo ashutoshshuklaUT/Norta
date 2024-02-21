@@ -1,20 +1,21 @@
-scenario_id = 1
 n_scenario = 16
 
 import os
-import numpy as np
+import argparse
 import pandas as pd
-
 import yaml
 import json
 import shutil
-import numpy as np
-from gurobipy import GRB
 from utils import prepare_input
 from main_model import two_stage_model
 
-dir_name = 'norta_sm_' + str(n_scenario) + "_" + str(scenario_id) +'/'
+parser = argparse.ArgumentParser()
+parser.add_argument('--scenario_id', type=int, required=True, help="Norta scenario id")
 
+args = parser.parse_args()
+scenario_id = args.scenario_id
+
+dir_name = 'norta_sm_' + str(n_scenario) + "_" + str(scenario_id) +'/'
 
 with open(r'config.yaml') as file:
     model_params = yaml.load(file, Loader=yaml.FullLoader)
