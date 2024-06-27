@@ -1,0 +1,4162 @@
+
+Gurobi 10.0.2 (linux64) logging started Wed Feb 21 20:45:27 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211707 rows, 77908 columns and 589832 nonzeros
+Model fingerprint: 0xe7ccca41
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+Loaded MIP start from previous solve with objective 43.6837
+
+
+Explored 0 nodes (0 simplex iterations) in 0.64 seconds (0.52 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: 43.6837 
+
+Solve interrupted
+Best objective 4.368370835015e+01, best bound -, gap -
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:04:27 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211779 rows, 77908 columns and 589904 nonzeros
+Model fingerprint: 0x80e596ce
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211924 by 1.000000000
+
+Presolve removed 210772 rows and 76581 columns
+Presolve time: 2.49s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6406064
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14648913e+03 -5.64420653e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35309549e+01 -3.07575171e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37431379e+01 -3.07184887e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52743641e+01 -2.54552970e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.90543818e+00  4.67233117e+00  4.23e-05 3.33e-16  2.42e-03     3s
+   5   8.56007380e+00  7.58932443e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.38652435e+00  8.35570235e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.38382854e+00  8.38370178e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.38380688e+00  8.38380687e+00  6.48e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.69 seconds (2.06 work units)
+Optimal objective 8.38380688e+00
+
+
+Root relaxation: objective 8.383807e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.3838069    8.38381  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.73 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.38381 31.6406 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.383806875001e+00, best bound 8.383806875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:05:04 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x63f2b571
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.61s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8500977
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14846568e+03 -5.64399430e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34037181e+01 -3.07554968e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39427138e+01 -3.06974383e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54829448e+01 -2.52457743e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01149289e+01  4.88181809e+00  4.22e-05 2.58e-14  2.42e-03     3s
+   5   8.76956738e+00  7.79881580e+00  4.71e-06 4.44e-15  4.50e-04     3s
+   6   8.59601561e+00  8.56519311e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.59331979e+00  8.59319303e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.59329813e+00  8.59329812e+00  5.60e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.82 seconds (2.04 work units)
+Optimal objective 8.59329813e+00
+
+
+Root relaxation: objective 8.593298e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.59330    0    2   31.85010    8.59330  73.0%     -    2s
+H    0     0                       8.5932981    8.59330  0.00%     -    2s
+     0     0    8.59330    0    2    8.59330    8.59330  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.87 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.5933 31.8501 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.593298125001e+00, best bound 8.593298125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:05:40 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xfd8b4fec
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.48s
+Presolved: 1006 rows, 1326 columns, 4436 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5800852
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.845e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13869185e+03 -5.68632361e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.33235394e+01 -3.07902013e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36998724e+01 -3.07192990e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.52031241e+01 -2.56734873e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.81635985e+00  4.60258196e+00  5.94e-05 1.27e-14  2.42e-03     3s
+   5   8.47451939e+00  7.48858977e+00  6.53e-06 2.22e-15  4.57e-04     3s
+   6   8.30322403e+00  8.26693634e+00  3.81e-08 4.44e-16  1.68e-05     3s
+   7   8.30064429e+00  8.30047545e+00  1.54e-10 4.44e-16  7.82e-08     3s
+   8   8.30061688e+00  8.30061687e+00  9.66e-12 4.44e-16  2.61e-13     3s
+
+Barrier solved model in 8 iterations and 2.67 seconds (2.04 work units)
+Optimal objective 8.30061688e+00
+
+
+Root relaxation: objective 8.300617e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.30062    0    1   31.58009    8.30062  73.7%     -    2s
+H    0     0                       8.3006169    8.30062  0.00%     -    2s
+     0     0    8.30062    0    1    8.30062    8.30062  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.71 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.30062 31.5801 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.300616875001e+00, best bound 8.300616875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:06:16 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0xfef9f45e
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.41s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5315183
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14660962e+03 -5.64445174e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36464520e+01 -3.07600581e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36233267e+01 -3.07326601e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.51506227e+01 -2.55745516e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.77106378e+00  4.53518648e+00  4.08e-05 3.55e-15  2.43e-03     3s
+   5   8.42760254e+00  7.43591243e+00  4.59e-06 4.44e-16  4.59e-04     3s
+   6   8.25220228e+00  8.21468144e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.24951393e+00  8.24933622e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.24948500e+00  8.24948500e+00  4.56e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.61 seconds (1.99 work units)
+Optimal objective 8.24948500e+00
+
+
+Root relaxation: objective 8.249485e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.24949    0    1   31.53152    8.24949  73.8%     -    2s
+H    0     0                       8.2494850    8.24949  0.00%     -    2s
+     0     0    8.24949    0    1    8.24949    8.24949  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.66 seconds (2.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.24949 31.5315 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.249485000001e+00, best bound 8.249485000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:06:52 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211683 rows, 77908 columns and 589616 nonzeros
+Model fingerprint: 0xe638458d
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211828 by 1.000000000
+
+Presolve removed 210676 rows and 76581 columns
+Presolve time: 2.43s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4046671
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15764252e+03 -5.64457895e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.41837003e+01 -3.07613179e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34469607e+01 -3.07456245e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50192196e+01 -2.57014586e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.64420947e+00  4.40833040e+00  4.08e-05 1.02e-14  2.43e-03     3s
+   5   8.30075077e+00  7.30906042e+00  4.59e-06 2.00e-15  4.59e-04     3s
+   6   8.12535103e+00  8.08783023e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.12266268e+00  8.12248497e+00  1.26e-10 4.44e-16  8.23e-08     3s
+   8   8.12263375e+00  8.12263375e+00  9.96e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.63 seconds (2.02 work units)
+Optimal objective 8.12263375e+00
+
+
+Root relaxation: objective 8.122634e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.12263    0    1   31.40467    8.12263  74.1%     -    2s
+H    0     0                       8.1226338    8.12263  0.00%     -    2s
+     0     0    8.12263    0    1    8.12263    8.12263  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.71 seconds (2.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.12263 31.4047 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.122633750001e+00, best bound 8.122633750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:07:29 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x04603955
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.60s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5427977
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15619192e+03 -5.68621948e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40116915e+01 -3.07892385e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35940409e+01 -3.07198525e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.51732046e+01 -2.57005887e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.80441903e+00  4.59408919e+00  6.08e-05 1.78e-15  2.42e-03     3s
+   5   8.46043792e+00  7.49542303e+00  6.62e-06 2.22e-16  4.47e-04     3s
+   6   8.29120252e+00  8.26236143e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.28858311e+00  8.28846603e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.28856313e+00  8.28856312e+00  5.38e-12 4.44e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.82 seconds (2.03 work units)
+Optimal objective 8.28856313e+00
+
+
+Root relaxation: objective 8.288563e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.28856    0    3   31.54280    8.28856  73.7%     -    2s
+H    0     0                       8.2885631    8.28856  0.00%     -    2s
+     0     0    8.28856    0    3    8.28856    8.28856  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.86 seconds (2.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.28856 31.5428 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.288563125001e+00, best bound 8.288563125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:08:05 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x9c64c481
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.52s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8703477
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15499448e+03 -5.64411060e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36359725e+01 -3.07566610e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39225000e+01 -3.06992086e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54858023e+01 -2.52357901e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01098891e+01  4.87402555e+00  4.08e-05 8.88e-16  2.43e-03     3s
+   5   8.76642882e+00  7.77474547e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.59103153e+00  8.55351231e+00  2.91e-08 4.44e-16  1.74e-05     3s
+   7   8.58834330e+00  8.58816560e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.58831438e+00  8.58831437e+00  8.49e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.70 seconds (2.07 work units)
+Optimal objective 8.58831438e+00
+
+
+Root relaxation: objective 8.588314e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.58831    0    1   31.87035    8.58831  73.1%     -    2s
+H    0     0                       8.5883144    8.58831  0.00%     -    2s
+     0     0    8.58831    0    1    8.58831    8.58831  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.75 seconds (2.08 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.58831 31.8703 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.588314375001e+00, best bound 8.588314375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:08:41 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x760e8bc2
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.55s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.7741377
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15726981e+03 -5.64421044e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.38141487e+01 -3.07575832e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38164245e+01 -3.07086185e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.53886828e+01 -2.53319811e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.00136783e+01  4.77781058e+00  4.08e-05 1.33e-15  2.43e-03     3s
+   5   8.67021897e+00  7.67853266e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.49482158e+00  8.45730197e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.49213330e+00  8.49195560e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.49210438e+00  8.49210437e+00  5.11e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.75 seconds (2.09 work units)
+Optimal objective 8.49210438e+00
+
+
+Root relaxation: objective 8.492104e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.49210    0    1   31.77414    8.49210  73.3%     -    2s
+H    0     0                       8.4921044    8.49210  0.00%     -    2s
+     0     0    8.49210    0    1    8.49210    8.49210  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.83 seconds (2.10 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.4921 31.7741 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.492104375001e+00, best bound 8.492104375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:09:17 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0xd8205acb
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210853 rows and 76582 columns
+Presolve time: 2.36s
+Presolved: 1006 rows, 1326 columns, 4436 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 32.1099177
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.845e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15781570e+03 -5.68579072e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35329953e+01 -3.07849732e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.41405414e+01 -3.06665306e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.57247584e+01 -2.51436698e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   1.03461856e+01  5.13240964e+00  5.94e-05 1.78e-15  2.42e-03     3s
+   5   9.00435440e+00  8.01842192e+00  6.53e-06 2.22e-16  4.57e-04     3s
+   6   8.83305655e+00  8.79676726e+00  3.80e-08 2.22e-16  1.68e-05     3s
+   7   8.83047679e+00  8.83030794e+00  1.54e-10 2.22e-16  7.82e-08     3s
+   8   8.83044938e+00  8.83044937e+00  8.17e-12 2.22e-16  2.61e-13     3s
+
+Barrier solved model in 8 iterations and 2.56 seconds (1.98 work units)
+Optimal objective 8.83044938e+00
+
+
+Root relaxation: objective 8.830449e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.83045    0    1   32.10992    8.83045  72.5%     -    2s
+H    0     0                       8.8304494    8.83045  0.00%     -    2s
+     0     0    8.83045    0    1    8.83045    8.83045  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.59 seconds (1.99 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.83045 32.1099 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.830449375001e+00, best bound 8.830449375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 00:09:53 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0x993ac74e
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.50s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4297739
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14452394e+03 -5.64455710e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36659591e+01 -3.07610048e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35314962e+01 -3.07427523e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50497863e+01 -2.56763144e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.66931655e+00  4.43344175e+00  4.09e-05 8.88e-16  2.43e-03     3s
+   5   8.32585499e+00  7.33416720e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.15045782e+00  8.11293845e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.14776955e+00  8.14759185e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.14774063e+00  8.14774062e+00  1.13e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.69 seconds (2.06 work units)
+Optimal objective 8.14774063e+00
+
+
+Root relaxation: objective 8.147741e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.14774    0    1   31.42977    8.14774  74.1%     -    2s
+H    0     0                       8.1477406    8.14774  0.00%     -    2s
+     0     0    8.14774    0    1    8.14774    8.14774  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.75 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.14774 31.4298 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.147740625001e+00, best bound 8.147740625001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:12:16 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211779 rows, 77908 columns and 589904 nonzeros
+Model fingerprint: 0x80e596ce
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211924 by 1.000000000
+
+Presolve removed 210772 rows and 76581 columns
+Presolve time: 2.55s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6406064
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14648913e+03 -5.64420653e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35309549e+01 -3.07575171e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37431379e+01 -3.07184887e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52743641e+01 -2.54552970e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.90543818e+00  4.67233117e+00  4.23e-05 3.33e-16  2.42e-03     3s
+   5   8.56007380e+00  7.58932443e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.38652435e+00  8.35570235e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.38382854e+00  8.38370178e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.38380688e+00  8.38380687e+00  6.48e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.75 seconds (2.06 work units)
+Optimal objective 8.38380688e+00
+
+
+Root relaxation: objective 8.383807e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.3838069    8.38381  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.78 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.38381 31.6406 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.383806875001e+00, best bound 8.383806875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:13:54 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211779 rows, 77908 columns and 589904 nonzeros
+Model fingerprint: 0x80e596ce
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211924 by 1.000000000
+
+Presolve removed 210772 rows and 76581 columns
+Presolve time: 2.52s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6406064
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14648913e+03 -5.64420653e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35309549e+01 -3.07575171e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37431379e+01 -3.07184887e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52743641e+01 -2.54552970e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.90543818e+00  4.67233117e+00  4.23e-05 3.33e-16  2.42e-03     3s
+   5   8.56007380e+00  7.58932443e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.38652435e+00  8.35570235e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.38382854e+00  8.38370178e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.38380688e+00  8.38380687e+00  6.48e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.71 seconds (2.06 work units)
+Optimal objective 8.38380688e+00
+
+
+Root relaxation: objective 8.383807e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.3838069    8.38381  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.75 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.38381 31.6406 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.383806875001e+00, best bound 8.383806875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:14:31 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x63f2b571
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.51s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8500977
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14846568e+03 -5.64399430e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34037181e+01 -3.07554968e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39427138e+01 -3.06974383e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54829448e+01 -2.52457743e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01149289e+01  4.88181809e+00  4.22e-05 2.58e-14  2.42e-03     3s
+   5   8.76956738e+00  7.79881580e+00  4.71e-06 4.44e-15  4.50e-04     3s
+   6   8.59601561e+00  8.56519311e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.59331979e+00  8.59319303e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.59329813e+00  8.59329812e+00  5.60e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.71 seconds (2.04 work units)
+Optimal objective 8.59329813e+00
+
+
+Root relaxation: objective 8.593298e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.59330    0    2   31.85010    8.59330  73.0%     -    2s
+H    0     0                       8.5932981    8.59330  0.00%     -    2s
+     0     0    8.59330    0    2    8.59330    8.59330  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.76 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.5933 31.8501 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.593298125001e+00, best bound 8.593298125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:15:07 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xfd8b4fec
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.68s
+Presolved: 1006 rows, 1326 columns, 4436 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5800852
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.845e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13869185e+03 -5.68632361e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.33235394e+01 -3.07902013e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36998724e+01 -3.07192990e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.52031241e+01 -2.56734873e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.81635985e+00  4.60258196e+00  5.94e-05 1.27e-14  2.42e-03     3s
+   5   8.47451939e+00  7.48858977e+00  6.53e-06 2.22e-15  4.57e-04     3s
+   6   8.30322403e+00  8.26693634e+00  3.81e-08 4.44e-16  1.68e-05     3s
+   7   8.30064429e+00  8.30047545e+00  1.54e-10 4.44e-16  7.82e-08     3s
+   8   8.30061688e+00  8.30061687e+00  9.66e-12 4.44e-16  2.61e-13     3s
+
+Barrier solved model in 8 iterations and 2.88 seconds (2.04 work units)
+Optimal objective 8.30061688e+00
+
+
+Root relaxation: objective 8.300617e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.30062    0    1   31.58009    8.30062  73.7%     -    2s
+H    0     0                       8.3006169    8.30062  0.00%     -    2s
+     0     0    8.30062    0    1    8.30062    8.30062  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.92 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.30062 31.5801 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.300616875001e+00, best bound 8.300616875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:15:44 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0xfef9f45e
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.41s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5315183
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14660962e+03 -5.64445174e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36464520e+01 -3.07600581e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36233267e+01 -3.07326601e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.51506227e+01 -2.55745516e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.77106378e+00  4.53518648e+00  4.08e-05 3.55e-15  2.43e-03     3s
+   5   8.42760254e+00  7.43591243e+00  4.59e-06 4.44e-16  4.59e-04     3s
+   6   8.25220228e+00  8.21468144e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.24951393e+00  8.24933622e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.24948500e+00  8.24948500e+00  4.56e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.62 seconds (1.99 work units)
+Optimal objective 8.24948500e+00
+
+
+Root relaxation: objective 8.249485e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.24949    0    1   31.53152    8.24949  73.8%     -    2s
+H    0     0                       8.2494850    8.24949  0.00%     -    2s
+     0     0    8.24949    0    1    8.24949    8.24949  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.66 seconds (2.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.24949 31.5315 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.249485000001e+00, best bound 8.249485000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:16:20 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211683 rows, 77908 columns and 589616 nonzeros
+Model fingerprint: 0xe638458d
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211828 by 1.000000000
+
+Presolve removed 210676 rows and 76581 columns
+Presolve time: 2.44s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4046671
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15764252e+03 -5.64457895e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.41837003e+01 -3.07613179e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34469607e+01 -3.07456245e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50192196e+01 -2.57014586e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.64420947e+00  4.40833040e+00  4.08e-05 1.02e-14  2.43e-03     3s
+   5   8.30075077e+00  7.30906042e+00  4.59e-06 2.00e-15  4.59e-04     3s
+   6   8.12535103e+00  8.08783023e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.12266268e+00  8.12248497e+00  1.26e-10 4.44e-16  8.23e-08     3s
+   8   8.12263375e+00  8.12263375e+00  9.96e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.65 seconds (2.02 work units)
+Optimal objective 8.12263375e+00
+
+
+Root relaxation: objective 8.122634e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.12263    0    1   31.40467    8.12263  74.1%     -    2s
+H    0     0                       8.1226338    8.12263  0.00%     -    2s
+     0     0    8.12263    0    1    8.12263    8.12263  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.69 seconds (2.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.12263 31.4047 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.122633750001e+00, best bound 8.122633750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:16:57 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x04603955
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.46s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5427977
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15619192e+03 -5.68621948e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40116915e+01 -3.07892385e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35940409e+01 -3.07198525e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.51732046e+01 -2.57005887e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.80441903e+00  4.59408919e+00  6.08e-05 1.78e-15  2.42e-03     3s
+   5   8.46043792e+00  7.49542303e+00  6.62e-06 2.22e-16  4.47e-04     3s
+   6   8.29120252e+00  8.26236143e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.28858311e+00  8.28846603e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.28856313e+00  8.28856312e+00  5.38e-12 4.44e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.66 seconds (2.03 work units)
+Optimal objective 8.28856313e+00
+
+
+Root relaxation: objective 8.288563e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.28856    0    3   31.54280    8.28856  73.7%     -    2s
+H    0     0                       8.2885631    8.28856  0.00%     -    2s
+     0     0    8.28856    0    3    8.28856    8.28856  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.70 seconds (2.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.28856 31.5428 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.288563125001e+00, best bound 8.288563125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:17:33 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x9c64c481
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.55s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8703477
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15499448e+03 -5.64411060e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36359725e+01 -3.07566610e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39225000e+01 -3.06992086e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54858023e+01 -2.52357901e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01098891e+01  4.87402555e+00  4.08e-05 8.88e-16  2.43e-03     3s
+   5   8.76642882e+00  7.77474547e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.59103153e+00  8.55351231e+00  2.91e-08 4.44e-16  1.74e-05     3s
+   7   8.58834330e+00  8.58816560e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.58831438e+00  8.58831437e+00  8.49e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.74 seconds (2.07 work units)
+Optimal objective 8.58831438e+00
+
+
+Root relaxation: objective 8.588314e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.58831    0    1   31.87035    8.58831  73.1%     -    2s
+H    0     0                       8.5883144    8.58831  0.00%     -    2s
+     0     0    8.58831    0    1    8.58831    8.58831  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.78 seconds (2.08 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.58831 31.8703 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.588314375001e+00, best bound 8.588314375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:18:09 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x760e8bc2
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.62s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.7741377
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15726981e+03 -5.64421044e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.38141487e+01 -3.07575832e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38164245e+01 -3.07086185e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.53886828e+01 -2.53319811e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.00136783e+01  4.77781058e+00  4.08e-05 1.33e-15  2.43e-03     3s
+   5   8.67021897e+00  7.67853266e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.49482158e+00  8.45730197e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.49213330e+00  8.49195560e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.49210438e+00  8.49210437e+00  5.11e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.81 seconds (2.09 work units)
+Optimal objective 8.49210438e+00
+
+
+Root relaxation: objective 8.492104e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.49210    0    1   31.77414    8.49210  73.3%     -    2s
+H    0     0                       8.4921044    8.49210  0.00%     -    2s
+     0     0    8.49210    0    1    8.49210    8.49210  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.86 seconds (2.10 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.4921 31.7741 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.492104375001e+00, best bound 8.492104375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:18:45 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0xd8205acb
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210853 rows and 76582 columns
+Presolve time: 2.40s
+Presolved: 1006 rows, 1326 columns, 4436 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 32.1099177
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.845e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15781570e+03 -5.68579072e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35329953e+01 -3.07849732e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.41405414e+01 -3.06665306e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.57247584e+01 -2.51436698e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   1.03461856e+01  5.13240964e+00  5.94e-05 1.78e-15  2.42e-03     3s
+   5   9.00435440e+00  8.01842192e+00  6.53e-06 2.22e-16  4.57e-04     3s
+   6   8.83305655e+00  8.79676726e+00  3.80e-08 2.22e-16  1.68e-05     3s
+   7   8.83047679e+00  8.83030794e+00  1.54e-10 2.22e-16  7.82e-08     3s
+   8   8.83044938e+00  8.83044937e+00  8.17e-12 2.22e-16  2.61e-13     3s
+
+Barrier solved model in 8 iterations and 2.59 seconds (1.98 work units)
+Optimal objective 8.83044938e+00
+
+
+Root relaxation: objective 8.830449e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.83045    0    1   32.10992    8.83045  72.5%     -    2s
+H    0     0                       8.8304494    8.83045  0.00%     -    2s
+     0     0    8.83045    0    1    8.83045    8.83045  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.63 seconds (1.99 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.83045 32.1099 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.830449375001e+00, best bound 8.830449375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:19:21 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0x993ac74e
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.57s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4297739
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14452394e+03 -5.64455710e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36659591e+01 -3.07610048e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35314962e+01 -3.07427523e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50497863e+01 -2.56763144e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.66931655e+00  4.43344175e+00  4.09e-05 8.88e-16  2.43e-03     3s
+   5   8.32585499e+00  7.33416720e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.15045782e+00  8.11293845e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.14776955e+00  8.14759185e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.14774063e+00  8.14774062e+00  1.13e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.77 seconds (2.06 work units)
+Optimal objective 8.14774063e+00
+
+
+Root relaxation: objective 8.147741e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.14774    0    1   31.42977    8.14774  74.1%     -    2s
+H    0     0                       8.1477406    8.14774  0.00%     -    2s
+     0     0    8.14774    0    1    8.14774    8.14774  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.81 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.14774 31.4298 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.147740625001e+00, best bound 8.147740625001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:19:58 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0xd43719b8
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210837 rows and 76582 columns
+Presolve time: 2.51s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6923233
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15821821e+03 -5.68607551e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.39441061e+01 -3.07876643e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37336898e+01 -3.07043277e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.53218072e+01 -2.55509897e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.95393796e+00  4.74361982e+00  6.08e-05 6.66e-16  2.42e-03     3s
+   5   8.60996001e+00  7.64494790e+00  6.63e-06 2.22e-16  4.47e-04     3s
+   6   8.44072812e+00  8.41188784e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.43810873e+00  8.43799166e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.43808875e+00  8.43808875e+00  5.47e-12 4.44e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.70 seconds (2.04 work units)
+Optimal objective 8.43808875e+00
+
+
+Root relaxation: objective 8.438089e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.43809    0    3   31.69232    8.43809  73.4%     -    2s
+H    0     0                       8.4380888    8.43809  0.00%     -    2s
+     0     0    8.43809    0    3    8.43809    8.43809  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.75 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.43809 31.6923 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.438088750001e+00, best bound 8.438088750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:20:34 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211811 rows, 77908 columns and 590000 nonzeros
+Model fingerprint: 0xe1332f8b
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211956 by 1.000000000
+
+Presolve removed 210804 rows and 76581 columns
+Presolve time: 2.51s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4006564
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14673783e+03 -5.64458112e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.37773098e+01 -3.07613524e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34924161e+01 -3.07460847e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50197520e+01 -2.57054633e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.64020060e+00  4.40433632e+00  4.08e-05 2.89e-15  2.43e-03     3s
+   5   8.29673769e+00  7.30505430e+00  4.59e-06 4.44e-16  4.59e-04     3s
+   6   8.12134028e+00  8.08382114e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.11865205e+00  8.11847435e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.11862313e+00  8.11862312e+00  1.01e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.71 seconds (2.03 work units)
+Optimal objective 8.11862313e+00
+
+
+Root relaxation: objective 8.118623e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.11862    0    1   31.40066    8.11862  74.1%     -    2s
+H    0     0                       8.1186231    8.11862  0.00%     -    2s
+     0     0    8.11862    0    1    8.11862    8.11862  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.75 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.11862 31.4007 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.118623125001e+00, best bound 8.118623125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:21:12 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x0e897acb
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.70s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4785614
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14883785e+03 -5.64450799e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.37813380e+01 -3.07605145e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35604768e+01 -3.07378865e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50967506e+01 -2.56275255e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.71810237e+00  4.48223197e+00  4.09e-05 1.55e-15  2.43e-03     3s
+   5   8.37464203e+00  7.38295532e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.19924531e+00  8.16172610e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.19655705e+00  8.19637935e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.19652813e+00  8.19652812e+00  1.87e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.06 work units)
+Optimal objective 8.19652813e+00
+
+
+Root relaxation: objective 8.196528e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.19653    0    2   31.47856    8.19653  74.0%     -    2s
+H    0     0                       8.1965281    8.19653  0.00%     -    2s
+     0     0    8.19653    0    2    8.19653    8.19653  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.19653 31.4786 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.196528125001e+00, best bound 8.196528125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:21:50 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211763 rows, 77908 columns and 589856 nonzeros
+Model fingerprint: 0x683d1fc2
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211908 by 1.000000000
+
+Presolve removed 210756 rows and 76581 columns
+Presolve time: 2.69s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5415958
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14877956e+03 -5.64444079e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.37184833e+01 -3.07599576e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36234711e+01 -3.07318180e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.51597842e+01 -2.55645029e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.78113893e+00  4.54526805e+00  4.08e-05 1.78e-15  2.43e-03     3s
+   5   8.43767832e+00  7.44599173e+00  4.59e-06 4.44e-16  4.59e-04     3s
+   6   8.26227971e+00  8.22475981e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.25959143e+00  8.25941372e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.25956250e+00  8.25956250e+00  8.12e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.91 seconds (2.04 work units)
+Optimal objective 8.25956250e+00
+
+
+Root relaxation: objective 8.259563e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.25956    0    1   31.54160    8.25956  73.8%     -    2s
+H    0     0                       8.2595625    8.25956  0.00%     -    2s
+     0     0    8.25956    0    1    8.25956    8.25956  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.95 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.25956 31.5416 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.259562500001e+00, best bound 8.259562500001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:22:29 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211827 rows, 77908 columns and 590048 nonzeros
+Model fingerprint: 0xe8fce090
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211972 by 1.000000000
+
+Presolve removed 210820 rows and 76581 columns
+Presolve time: 2.70s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4245077
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15544255e+03 -5.64452199e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40810257e+01 -3.07608169e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34786129e+01 -3.07427863e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50439435e+01 -2.56783182e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.67388289e+00  4.44181344e+00  4.12e-05 1.33e-15  2.42e-03     3s
+   5   8.32859485e+00  7.35577116e+00  4.60e-06 2.22e-16  4.51e-04     3s
+   6   8.15517103e+00  8.12421826e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.15246165e+00  8.15233487e+00  7.87e-11 2.22e-16  5.87e-08     3s
+   8   8.15244000e+00  8.15244000e+00  1.08e-11 4.44e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.90 seconds (2.05 work units)
+Optimal objective 8.15244000e+00
+
+
+Root relaxation: objective 8.152440e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.15244    0    2   31.42451    8.15244  74.1%     -    2s
+H    0     0                       8.1524400    8.15244  0.00%     -    2s
+     0     0    8.15244    0    2    8.15244    8.15244  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.15244 31.4245 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.152440000001e+00, best bound 8.152440000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:23:07 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211731 rows, 77908 columns and 589760 nonzeros
+Model fingerprint: 0xe7cb7168
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211876 by 1.000000000
+
+Presolve removed 210724 rows and 76581 columns
+Presolve time: 2.68s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5168858
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14662400e+03 -5.64446680e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36610748e+01 -3.07601985e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36086927e+01 -3.07342836e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.51359939e+01 -2.55892235e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.75643205e+00  4.52054900e+00  4.08e-05 3.33e-16  2.43e-03     3s
+   5   8.41297013e+00  7.42127899e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.23756979e+00  8.20004892e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.23488143e+00  8.23470372e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.23485250e+00  8.23485250e+00  8.84e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.90 seconds (2.05 work units)
+Optimal objective 8.23485250e+00
+
+
+Root relaxation: objective 8.234853e+00, 75 iterations, 0.06 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.23485    0    1   31.51689    8.23485  73.9%     -    2s
+H    0     0                       8.2348525    8.23485  0.00%     -    2s
+     0     0    8.23485    0    1    8.23485    8.23485  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.96 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.23485 31.5169 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.234852500001e+00, best bound 8.234852500001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:23:45 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xf3644a99
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.72s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.1589796
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14697856e+03 -5.64482458e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40189054e+01 -3.07637358e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.32507639e+01 -3.07700076e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.47780738e+01 -2.59470996e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.39852381e+00  4.16266392e+00  4.08e-05 3.89e-16  2.43e-03     3s
+   5   8.05506062e+00  7.06337692e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   7.87966343e+00  7.84214424e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   7.87697518e+00  7.87679748e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   7.87694625e+00  7.87694625e+00  6.70e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.92 seconds (2.06 work units)
+Optimal objective 7.87694625e+00
+
+
+Root relaxation: objective 7.876946e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.87695    0    1   31.15898    7.87695  74.7%     -    2s
+H    0     0                       7.8769463    7.87695  0.00%     -    2s
+     0     0    7.87695    0    1    7.87695    7.87695  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.96 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 7.87695 31.159 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.876946250001e+00, best bound 7.876946250001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:24:23 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211827 rows, 77908 columns and 590048 nonzeros
+Model fingerprint: 0xa291ea97
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211972 by 1.000000000
+
+Presolve removed 210820 rows and 76581 columns
+Presolve time: 2.63s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.3881996
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13584531e+03 -5.64456216e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.33785497e+01 -3.07611779e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35314735e+01 -3.07458258e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50158402e+01 -2.57145643e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.63757833e+00  4.40548704e+00  4.13e-05 9.33e-15  2.42e-03     3s
+   5   8.29228845e+00  7.31945800e+00  4.60e-06 1.55e-15  4.51e-04     3s
+   6   8.11886292e+00  8.08790977e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.11615353e+00  8.11602674e+00  7.88e-11 4.44e-16  5.87e-08     3s
+   8   8.11613188e+00  8.11613187e+00  6.69e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.83 seconds (2.01 work units)
+Optimal objective 8.11613188e+00
+
+
+Root relaxation: objective 8.116132e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.11613    0    2   31.38820    8.11613  74.1%     -    2s
+H    0     0                       8.1161319    8.11613  0.00%     -    2s
+     0     0    8.11613    0    2    8.11613    8.11613  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.87 seconds (2.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.11613 31.3882 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.116131875001e+00, best bound 8.116131875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:25:02 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x1959dab2
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.68s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6870864
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14731848e+03 -5.68607707e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.35389585e+01 -3.07878317e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37780042e+01 -3.07050499e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.53211542e+01 -2.55562779e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.94871368e+00  4.73835118e+00  6.08e-05 7.77e-15  2.42e-03     3s
+   5   8.60473094e+00  7.63970593e+00  6.62e-06 1.33e-15  4.47e-04     3s
+   6   8.43549131e+00  8.40664920e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.43287186e+00  8.43275478e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.43285188e+00  8.43285187e+00  5.11e-12 2.22e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.03 work units)
+Optimal objective 8.43285188e+00
+
+
+Root relaxation: objective 8.432852e+00, 75 iterations, 0.06 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.43285    0    3   31.68709    8.43285  73.4%     -    2s
+H    0     0                       8.4328519    8.43285  0.00%     -    2s
+     0     0    8.43285    0    3    8.43285    8.43285  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.43285 31.6871 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.432851875001e+00, best bound 8.432851875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:25:39 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211715 rows, 77908 columns and 589712 nonzeros
+Model fingerprint: 0xd2fad12b
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211860 by 1.000000000
+
+Presolve removed 210708 rows and 76581 columns
+Presolve time: 2.64s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.7421871
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14639793e+03 -5.64424368e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34357538e+01 -3.07579455e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38340216e+01 -3.07115419e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.53612994e+01 -2.53639082e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.98173173e+00  4.74583759e+00  4.08e-05 1.20e-14  2.43e-03     3s
+   5   8.63827215e+00  7.64657706e+00  4.59e-06 1.78e-15  4.59e-04     3s
+   6   8.46287108e+00  8.42534964e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.46018268e+00  8.46000496e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.46015375e+00  8.46015375e+00  1.01e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.84 seconds (2.02 work units)
+Optimal objective 8.46015375e+00
+
+
+Root relaxation: objective 8.460154e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.46015    0    1   31.74219    8.46015  73.3%     -    2s
+H    0     0                       8.4601538    8.46015  0.00%     -    2s
+     0     0    8.46015    0    1    8.46015    8.46015  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.89 seconds (2.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.46015 31.7422 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.460153750001e+00, best bound 8.460153750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:26:18 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211731 rows, 77908 columns and 589760 nonzeros
+Model fingerprint: 0x7c5516ec
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211876 by 1.000000000
+
+Presolve removed 210724 rows and 76581 columns
+Presolve time: 2.72s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5847208
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15746256e+03 -5.64436661e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40028604e+01 -3.07592166e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36289893e+01 -3.07263338e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52032581e+01 -2.55180885e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.83409204e+00  4.60199528e+00  4.13e-05 6.00e-15  2.42e-03     3s
+   5   8.48880984e+00  7.51597661e+00  4.60e-06 1.33e-15  4.51e-04     3s
+   6   8.31538418e+00  8.28443067e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.31267478e+00  8.31254799e+00  7.88e-11 2.22e-16  5.87e-08     3s
+   8   8.31265313e+00  8.31265312e+00  5.41e-12 4.44e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.94 seconds (2.07 work units)
+Optimal objective 8.31265313e+00
+
+
+Root relaxation: objective 8.312653e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.31265    0    2   31.58472    8.31265  73.7%     -    2s
+H    0     0                       8.3126531    8.31265  0.00%     -    2s
+     0     0    8.31265    0    2    8.31265    8.31265  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.98 seconds (2.08 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.31265 31.5847 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.312653125001e+00, best bound 8.312653125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:26:56 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211811 rows, 77908 columns and 590000 nonzeros
+Model fingerprint: 0x416c112f
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211956 by 1.000000000
+
+Presolve removed 210804 rows and 76581 columns
+Presolve time: 2.67s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.3692002
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13805188e+03 -5.64460776e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34806272e+01 -3.07617490e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35005644e+01 -3.07496182e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.49919592e+01 -2.57369776e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.60875299e+00  4.37286522e+00  4.08e-05 3.33e-15  2.43e-03     3s
+   5   8.26528615e+00  7.27359666e+00  4.58e-06 6.66e-16  4.59e-04     3s
+   6   8.08988415e+00  8.05236310e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.08719580e+00  8.08701809e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.08716688e+00  8.08716687e+00  1.25e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.04 work units)
+Optimal objective 8.08716688e+00
+
+
+Root relaxation: objective 8.087167e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.08717    0    1   31.36920    8.08717  74.2%     -    2s
+H    0     0                       8.0871669    8.08717  0.00%     -    2s
+     0     0    8.08717    0    1    8.08717    8.08717  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.08717 31.3692 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.087166875001e+00, best bound 8.087166875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:27:35 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211811 rows, 77908 columns and 590000 nonzeros
+Model fingerprint: 0xf85da46e
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211956 by 1.000000000
+
+Presolve removed 210804 rows and 76581 columns
+Presolve time: 2.70s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8480146
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14629381e+03 -5.64413509e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.33299723e+01 -3.07569011e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39398250e+01 -3.07010184e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54671207e+01 -2.52580575e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.00875604e+01  4.85168034e+00  4.08e-05 1.02e-14  2.43e-03     3s
+   5   8.74409931e+00  7.75240825e+00  4.59e-06 1.78e-15  4.59e-04     3s
+   6   8.56869855e+00  8.53117745e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.56601018e+00  8.56583247e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.56598125e+00  8.56598125e+00  1.20e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.05 work units)
+Optimal objective 8.56598125e+00
+
+
+Root relaxation: objective 8.565981e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.56598    0    1   31.84801    8.56598  73.1%     -    2s
+H    0     0                       8.5659813    8.56598  0.00%     -    2s
+     0     0    8.56598    0    1    8.56598    8.56598  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.56598 31.848 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.565981250001e+00, best bound 8.565981250001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:28:13 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xdc4e7033
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.70s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6267264
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14868766e+03 -5.64432637e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36323375e+01 -3.07587073e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37105729e+01 -3.07221250e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52488885e+01 -2.54760702e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.87609787e+00  4.64402788e+00  4.13e-05 1.98e-14  2.42e-03     3s
+   5   8.53081029e+00  7.55798714e+00  4.61e-06 3.11e-15  4.51e-04     3s
+   6   8.35738976e+00  8.32643773e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.35468040e+00  8.35455362e+00  7.88e-11 2.22e-16  5.87e-08     3s
+   8   8.35465875e+00  8.35465875e+00  5.99e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.06 work units)
+Optimal objective 8.35465875e+00
+
+
+Root relaxation: objective 8.354659e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.35466    0    2   31.62673    8.35466  73.6%     -    2s
+H    0     0                       8.3546588    8.35466  0.00%     -    2s
+     0     0    8.35466    0    2    8.35466    8.35466  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.35466 31.6267 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.354658750001e+00, best bound 8.354658750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:28:52 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xe57d3132
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210869 rows and 76582 columns
+Presolve time: 2.69s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 32.0609858
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14694088e+03 -5.68570518e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.31649755e+01 -3.07840548e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.41519072e+01 -3.06673706e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.56950439e+01 -2.51823300e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   1.03226097e+01  5.11225923e+00  6.08e-05 1.13e-14  2.42e-03     3s
+   5   8.97862798e+00  8.01360639e+00  6.62e-06 1.78e-15  4.47e-04     3s
+   6   8.80939066e+00  8.78054916e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.80677123e+00  8.80665415e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.80675125e+00  8.80675125e+00  8.00e-12 2.22e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.06 work units)
+Optimal objective 8.80675125e+00
+
+
+Root relaxation: objective 8.806751e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.80675    0    2   32.06099    8.80675  72.5%     -    2s
+H    0     0                       8.8067513    8.80675  0.00%     -    2s
+     0     0    8.80675    0    2    8.80675    8.80675  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.80675 32.061 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.806751250001e+00, best bound 8.806751250001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:29:30 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x354619d0
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.77s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 32.2250671
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13719174e+03 -5.64375844e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.26245968e+01 -3.07531411e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.43564879e+01 -3.06633703e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.58478207e+01 -2.48810203e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.04646170e+01  5.22872612e+00  4.08e-05 1.11e-15  2.43e-03     3s
+   5   9.12115315e+00  8.12945935e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.94575109e+00  8.90822947e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.94306268e+00  8.94288496e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.94303375e+00  8.94303375e+00  8.03e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.98 seconds (2.09 work units)
+Optimal objective 8.94303375e+00
+
+
+Root relaxation: objective 8.943034e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.94303    0    1   32.22507    8.94303  72.2%     -    2s
+H    0     0                       8.9430338    8.94303  0.00%     -    3s
+     0     0    8.94303    0    1    8.94303    8.94303  0.00%     -    3s
+
+Explored 1 nodes (75 simplex iterations) in 3.02 seconds (2.10 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.94303 32.2251 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.943033750001e+00, best bound 8.943033750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:30:09 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211747 rows, 77908 columns and 589808 nonzeros
+Model fingerprint: 0x9c5641f8
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211892 by 1.000000000
+
+Presolve removed 210741 rows and 76582 columns
+Presolve time: 2.75s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8177139
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14936491e+03 -5.68594715e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34903123e+01 -3.07864497e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38986950e+01 -3.06921736e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.54508567e+01 -2.54256689e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   1.00793371e+01  4.86900100e+00  6.08e-05 1.18e-14  2.42e-03     3s
+   5   8.73535326e+00  7.77033774e+00  6.62e-06 2.00e-15  4.47e-04     3s
+   6   8.56611877e+00  8.53727798e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.56349936e+00  8.56338228e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.56347938e+00  8.56347937e+00  8.13e-12 2.22e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.95 seconds (2.06 work units)
+Optimal objective 8.56347938e+00
+
+
+Root relaxation: objective 8.563479e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.56348    0    3   31.81771    8.56348  73.1%     -    2s
+H    0     0                       8.5634794    8.56348  0.00%     -    2s
+     0     0    8.56348    0    3    8.56348    8.56348  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.99 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.56348 31.8177 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.563479375001e+00, best bound 8.563479375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:30:47 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211811 rows, 77908 columns and 590000 nonzeros
+Model fingerprint: 0x045b1935
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211956 by 1.000000000
+
+Presolve removed 210804 rows and 76581 columns
+Presolve time: 2.71s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.0292902
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14056368e+03 -5.64495349e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.39023900e+01 -3.07650530e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.31507570e+01 -3.07832184e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.46511178e+01 -2.60768348e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.26883641e+00  4.03296889e+00  4.08e-05 6.66e-16  2.43e-03     3s
+   5   7.92537132e+00  6.93368754e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   7.74997402e+00  7.71245503e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   7.74728580e+00  7.74710810e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   7.74725688e+00  7.74725687e+00  6.53e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.90 seconds (2.07 work units)
+Optimal objective 7.74725688e+00
+
+
+Root relaxation: objective 7.747257e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.74726    0    1   31.02929    7.74726  75.0%     -    2s
+H    0     0                       7.7472569    7.74726  0.00%     -    2s
+     0     0    7.74726    0    1    7.74726    7.74726  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.95 seconds (2.08 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 7.74726 31.0293 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.747256875001e+00, best bound 7.747256875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:31:26 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x10ab2310
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.69s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6315783
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15304464e+03 -5.64442193e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.37865679e+01 -3.07583013e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37043083e+01 -3.07192020e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52625313e+01 -2.54644221e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.89641048e+00  4.66325216e+00  4.23e-05 5.33e-15  2.42e-03     3s
+   5   8.55106318e+00  7.58030744e+00  4.71e-06 1.11e-15  4.50e-04     3s
+   6   8.37749626e+00  8.34666919e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.37480042e+00  8.37467364e+00  8.21e-11 2.22e-16  5.87e-08     3s
+   8   8.37477875e+00  8.37477875e+00  1.10e-11 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.04 work units)
+Optimal objective 8.37477875e+00
+
+
+Root relaxation: objective 8.374779e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.3747788    8.37478  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.92 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.37478 31.6316 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.374778750001e+00, best bound 8.374778750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:32:04 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0xe1e05954
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210837 rows and 76582 columns
+Presolve time: 2.64s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6114946
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15611578e+03 -5.68615664e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.39428015e+01 -3.07884660e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36627794e+01 -3.07123624e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.52418946e+01 -2.56318245e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.87310970e+00  4.66278636e+00  6.08e-05 3.33e-15  2.42e-03     3s
+   5   8.52913114e+00  7.56411834e+00  6.63e-06 8.88e-16  4.47e-04     3s
+   6   8.35989937e+00  8.33105916e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.35727998e+00  8.35716291e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.35726000e+00  8.35726000e+00  1.16e-11 4.44e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.83 seconds (2.02 work units)
+Optimal objective 8.35726000e+00
+
+
+Root relaxation: objective 8.357260e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.35726    0    3   31.61149    8.35726  73.6%     -    2s
+H    0     0                       8.3572600    8.35726  0.00%     -    2s
+     0     0    8.35726    0    3    8.35726    8.35726  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.88 seconds (2.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.35726 31.6115 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.357260000001e+00, best bound 8.357260000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:32:42 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xc7dfb052
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.72s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8913902
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14406058e+03 -5.64409501e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.32043059e+01 -3.07563699e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39930908e+01 -3.06967561e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.55113961e+01 -2.52147140e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01309330e+01  4.89506804e+00  4.09e-05 2.22e-16  2.43e-03     3s
+   5   8.78746972e+00  7.79578573e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.61207401e+00  8.57455548e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.60938580e+00  8.60920811e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.60935688e+00  8.60935687e+00  1.13e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.92 seconds (2.06 work units)
+Optimal objective 8.60935688e+00
+
+
+Root relaxation: objective 8.609357e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.60936    0    1   31.89139    8.60936  73.0%     -    2s
+H    0     0                       8.6093569    8.60936  0.00%     -    2s
+     0     0    8.60936    0    1    8.60936    8.60936  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.96 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.60936 31.8914 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.609356875001e+00, best bound 8.609356875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:33:20 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0xb4a7f74f
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.73s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.7012421
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13989359e+03 -5.64428329e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.32304200e+01 -3.07583369e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38227520e+01 -3.07158936e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.53230811e+01 -2.54048753e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.94079029e+00  4.70490674e+00  4.08e-05 4.44e-16  2.43e-03     3s
+   5   8.59732582e+00  7.60563539e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.42192602e+00  8.38440552e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.41923768e+00  8.41905997e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.41920875e+00  8.41920875e+00  9.87e-12 4.44e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.92 seconds (2.07 work units)
+Optimal objective 8.41920875e+00
+
+
+Root relaxation: objective 8.419209e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.41921    0    1   31.70124    8.41921  73.4%     -    2s
+H    0     0                       8.4192088    8.41921  0.00%     -    2s
+     0     0    8.41921    0    1    8.41921    8.41921  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.97 seconds (2.08 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.41921 31.7012 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.419208750001e+00, best bound 8.419208750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:33:58 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211763 rows, 77908 columns and 589856 nonzeros
+Model fingerprint: 0xde9f1fbb
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211908 by 1.000000000
+
+Presolve removed 210756 rows and 76581 columns
+Presolve time: 2.68s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5680564
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15311216e+03 -5.64438194e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.38552566e+01 -3.07593223e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36320870e+01 -3.07282417e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.51884024e+01 -2.55347729e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.81742809e+00  4.58535786e+00  4.13e-05 8.88e-16  2.42e-03     3s
+   5   8.47214087e+00  7.49931833e+00  4.60e-06 4.44e-16  4.51e-04     3s
+   6   8.29871976e+00  8.26776763e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.29601040e+00  8.29588363e+00  7.88e-11 2.22e-16  5.87e-08     3s
+   8   8.29598875e+00  8.29598875e+00  8.57e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.88 seconds (2.06 work units)
+Optimal objective 8.29598875e+00
+
+
+Root relaxation: objective 8.295989e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.29599    0    2   31.56806    8.29599  73.7%     -    2s
+H    0     0                       8.2959888    8.29599  0.00%     -    2s
+     0     0    8.29599    0    2    8.29599    8.29599  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.29599 31.5681 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.295988750001e+00, best bound 8.295988750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:34:36 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0xf703f5e4
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.65s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.3754308
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13803327e+03 -5.64461136e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.34740352e+01 -3.07615402e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35068461e+01 -3.07480914e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.49981680e+01 -2.57306245e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.61497539e+00  4.37910938e+00  4.09e-05 1.60e-14  2.43e-03     3s
+   5   8.27151128e+00  7.27982604e+00  4.59e-06 2.89e-15  4.59e-04     3s
+   6   8.09611467e+00  8.05859574e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.09342643e+00  8.09324873e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.09339750e+00  8.09339750e+00  7.52e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.84 seconds (2.03 work units)
+Optimal objective 8.09339750e+00
+
+
+Root relaxation: objective 8.093398e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.09340    0    2   31.37543    8.09340  74.2%     -    2s
+H    0     0                       8.0933975    8.09340  0.00%     -    2s
+     0     0    8.09340    0    2    8.09340    8.09340  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.89 seconds (2.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.0934 31.3754 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.093397500001e+00, best bound 8.093397500001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:35:15 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x96685957
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.69s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.3023433
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15338282e+03 -5.64467858e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.41218845e+01 -3.07623477e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.33644092e+01 -3.07560513e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.49187117e+01 -2.58037880e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.54188869e+00  4.30602062e+00  4.08e-05 3.11e-15  2.43e-03     3s
+   5   8.19842638e+00  7.20674031e+00  4.59e-06 6.66e-16  4.59e-04     3s
+   6   8.02302723e+00  7.98550703e+00  2.91e-08 4.44e-16  1.74e-05     3s
+   7   8.02033893e+00  8.02016122e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.02031000e+00  8.02031000e+00  7.98e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.05 work units)
+Optimal objective 8.02031000e+00
+
+
+Root relaxation: objective 8.020310e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.02031    0    1   31.30234    8.02031  74.4%     -    2s
+H    0     0                       8.0203100    8.02031  0.00%     -    2s
+     0     0    8.02031    0    1    8.02031    8.02031  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.07 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.02031 31.3023 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.020310000001e+00, best bound 8.020310000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:35:53 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0x2dc3e13d
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.64s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4225108
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14889035e+03 -5.64442322e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.38311749e+01 -3.07597170e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.35151329e+01 -3.07403755e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50553575e+01 -2.56733918e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.68734318e+00  4.45423829e+00  4.23e-05 2.50e-16  2.42e-03     3s
+   5   8.34197882e+00  7.37122968e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.16842873e+00  8.13760657e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.16573291e+00  8.16560616e+00  8.20e-11 2.22e-16  5.87e-08     3s
+   8   8.16571125e+00  8.16571125e+00  7.21e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.84 seconds (2.02 work units)
+Optimal objective 8.16571125e+00
+
+
+Root relaxation: objective 8.165711e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.1657113    8.16571  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.88 seconds (2.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.16571 31.4225 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.165711250001e+00, best bound 8.165711250001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:36:32 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211811 rows, 77908 columns and 590000 nonzeros
+Model fingerprint: 0x4e906f0c
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211956 by 1.000000000
+
+Presolve removed 210804 rows and 76581 columns
+Presolve time: 2.66s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.3709996
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15548583e+03 -5.64461824e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.41350617e+01 -3.07615581e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34232199e+01 -3.07482569e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.49864443e+01 -2.57350247e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.61053469e+00  4.37467686e+00  4.09e-05 1.27e-14  2.43e-03     3s
+   5   8.26707821e+00  7.27539369e+00  4.59e-06 2.22e-15  4.59e-04     3s
+   6   8.09168339e+00  8.05416484e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.08899518e+00  8.08881748e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.08896625e+00  8.08896625e+00  5.82e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.86 seconds (2.03 work units)
+Optimal objective 8.08896625e+00
+
+
+Root relaxation: objective 8.088966e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.08897    0    1   31.37100    8.08897  74.2%     -    2s
+H    0     0                       8.0889663    8.08897  0.00%     -    2s
+     0     0    8.08897    0    1    8.08897    8.08897  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.91 seconds (2.05 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.08897 31.371 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.088966250001e+00, best bound 8.088966250001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:37:09 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xb7956370
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.73s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6335777
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14868533e+03 -5.64435312e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36263825e+01 -3.07589979e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37155095e+01 -3.07222747e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52517728e+01 -2.54724965e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.87311940e+00  4.63723700e+00  4.08e-05 1.42e-14  2.43e-03     3s
+   5   8.52966058e+00  7.53796915e+00  4.59e-06 2.66e-15  4.59e-04     3s
+   6   8.35426164e+00  8.31674122e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.35157330e+00  8.35139559e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.35154438e+00  8.35154437e+00  1.45e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.93 seconds (2.08 work units)
+Optimal objective 8.35154438e+00
+
+
+Root relaxation: objective 8.351544e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.35154    0    1   31.63358    8.35154  73.6%     -    2s
+H    0     0                       8.3515444    8.35154  0.00%     -    2s
+     0     0    8.35154    0    1    8.35154    8.35154  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.97 seconds (2.09 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.35154 31.6336 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.351544375001e+00, best bound 8.351544375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:37:48 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211843 rows, 77908 columns and 590096 nonzeros
+Model fingerprint: 0x1435d5f0
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211988 by 1.000000000
+
+Presolve removed 210836 rows and 76581 columns
+Presolve time: 2.64s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.6894739
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.12681549e+03 -5.64418563e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.27443639e+01 -3.07574314e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.38791333e+01 -3.07151158e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.53274600e+01 -2.54098085e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.94449084e+00  4.70740179e+00  4.18e-05 4.44e-16  2.43e-03     3s
+   5   8.60096281e+00  7.61147085e+00  4.70e-06 2.22e-16  4.58e-04     3s
+   6   8.42533573e+00  8.38902329e+00  2.80e-08 2.22e-16  1.68e-05     3s
+   7   8.42273677e+00  8.42256476e+00  1.21e-10 4.44e-16  7.96e-08     3s
+   8   8.42270875e+00  8.42270875e+00  1.28e-11 2.22e-16  2.80e-13     3s
+
+Barrier solved model in 8 iterations and 2.84 seconds (2.02 work units)
+Optimal objective 8.42270875e+00
+
+
+Root relaxation: objective 8.422709e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.4227088    8.42271  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.88 seconds (2.03 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.42271 31.6895 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.422708750001e+00, best bound 8.422708750001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:38:26 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0xa3d3a073
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.68s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5974208
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13127454e+03 -5.64438679e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.30059701e+01 -3.07594074e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37585512e+01 -3.07261656e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52229097e+01 -2.55086807e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.83697314e+00  4.60107682e+00  4.08e-05 1.42e-14  2.43e-03     3s
+   5   8.49350698e+00  7.50181235e+00  4.59e-06 2.44e-15  4.59e-04     3s
+   6   8.31810484e+00  8.28058329e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.31541643e+00  8.31523871e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.31538750e+00  8.31538750e+00  8.69e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.05 work units)
+Optimal objective 8.31538750e+00
+
+
+Root relaxation: objective 8.315388e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.31539    0    2   31.59742    8.31539  73.7%     -    2s
+H    0     0                       8.3153875    8.31539  0.00%     -    2s
+     0     0    8.31539    0    2    8.31539    8.31539  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.31539 31.5974 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.315387500001e+00, best bound 8.315387500001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:39:04 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0xb617b04a
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210853 rows and 76582 columns
+Presolve time: 2.69s
+Presolved: 1006 rows, 1326 columns, 4435 nonzeros
+Variable types: 1147 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.7274477
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.844e+03
+ Factor NZ  : 2.604e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.534e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15601082e+03 -5.68603223e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.38271778e+01 -3.07874433e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.37786736e+01 -3.07017590e+02  4.75e-01 3.08e-03  1.72e-01     3s
+   3   1.53578663e+01 -2.55160195e+01  4.38e-02 1.56e-04  1.99e-02     3s
+   4   9.98907075e+00  4.77872446e+00  6.08e-05 2.44e-15  2.42e-03     3s
+   5   8.64508965e+00  7.68007172e+00  6.62e-06 4.44e-16  4.47e-04     3s
+   6   8.47585255e+00  8.44701108e+00  3.79e-08 2.22e-16  1.34e-05     3s
+   7   8.47323311e+00  8.47311603e+00  1.00e-10 2.22e-16  5.43e-08     3s
+   8   8.47321313e+00  8.47321312e+00  1.28e-11 2.22e-16  8.65e-14     3s
+
+Barrier solved model in 8 iterations and 2.88 seconds (2.03 work units)
+Optimal objective 8.47321313e+00
+
+
+Root relaxation: objective 8.473213e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.47321    0    3   31.72745    8.47321  73.3%     -    2s
+H    0     0                       8.4732131    8.47321  0.00%     -    2s
+     0     0    8.47321    0    3    8.47321    8.47321  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.93 seconds (2.04 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.47321 31.7274 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.473213125001e+00, best bound 8.473213125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:39:42 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211731 rows, 77908 columns and 589760 nonzeros
+Model fingerprint: 0x3c18ceff
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211876 by 1.000000000
+
+Presolve removed 210724 rows and 76581 columns
+Presolve time: 2.70s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.4064977
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15545869e+03 -5.64454530e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.40989809e+01 -3.07609859e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.34606702e+01 -3.07439726e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.50259422e+01 -2.56962791e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.65586844e+00  4.42377779e+00  4.13e-05 5.55e-16  2.42e-03     3s
+   5   8.31058597e+00  7.33775424e+00  4.60e-06 2.22e-16  4.51e-04     3s
+   6   8.13716105e+00  8.10620777e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   8.13445165e+00  8.13432487e+00  7.88e-11 4.44e-16  5.87e-08     3s
+   8   8.13443000e+00  8.13443000e+00  9.96e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.89 seconds (2.04 work units)
+Optimal objective 8.13443000e+00
+
+
+Root relaxation: objective 8.134430e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.13443    0    1   31.40650    8.13443  74.1%     -    2s
+H    0     0                       8.1344300    8.13443  0.00%     -    2s
+     0     0    8.13443    0    1    8.13443    8.13443  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.94 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.13443 31.4065 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.134430000001e+00, best bound 8.134430000001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:40:20 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x99f0ac7f
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.64s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.2836652
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15558275e+03 -5.64476553e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.42168375e+01 -3.07619025e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.33464810e+01 -3.07543103e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.49137235e+01 -2.58123834e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.54850078e+00  4.31531588e+00  4.22e-05 1.87e-14  2.42e-03     3s
+   5   8.20315563e+00  7.23239159e+00  4.71e-06 3.11e-15  4.50e-04     3s
+   6   8.02958319e+00  7.99875473e+00  2.81e-08 2.22e-16  1.43e-05     3s
+   7   8.02688729e+00  8.02676051e+00  8.20e-11 4.44e-16  5.87e-08     3s
+   8   8.02686563e+00  8.02686562e+00  1.28e-11 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.84 seconds (2.01 work units)
+Optimal objective 8.02686563e+00
+
+
+Root relaxation: objective 8.026866e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.02687    0    2   31.28367    8.02687  74.3%     -    2s
+H    0     0                       8.0268656    8.02687  0.00%     -    2s
+     0     0    8.02687    0    2    8.02687    8.02687  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.90 seconds (2.02 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.02687 31.2837 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.026865625001e+00, best bound 8.026865625001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:40:59 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x5e423046
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.62s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.8693102
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13972846e+03 -5.64410918e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.30624885e+01 -3.07566958e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.39907616e+01 -3.06994720e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.54911446e+01 -2.52368379e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01088594e+01  4.87299121e+00  4.08e-05 7.77e-15  2.43e-03     3s
+   5   8.76539276e+00  7.77370935e+00  4.59e-06 1.33e-15  4.59e-04     3s
+   6   8.58999404e+00  8.55247458e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.58730580e+00  8.58712810e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.58727688e+00  8.58727687e+00  9.07e-12 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.82 seconds (2.00 work units)
+Optimal objective 8.58727688e+00
+
+
+Root relaxation: objective 8.587277e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.58728    0    1   31.86931    8.58728  73.1%     -    2s
+H    0     0                       8.5872769    8.58728  0.00%     -    2s
+     0     0    8.58728    0    1    8.58728    8.58728  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.86 seconds (2.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.58728 31.8693 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.587276875001e+00, best bound 8.587276875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:41:37 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211827 rows, 77908 columns and 590048 nonzeros
+Model fingerprint: 0xec4e3df1
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211972 by 1.000000000
+
+Presolve removed 210820 rows and 76581 columns
+Presolve time: 2.62s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.5896252
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14872217e+03 -5.64425994e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.36640279e+01 -3.07580375e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.36822989e+01 -3.07230610e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.52224762e+01 -2.55062114e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.85445365e+00  4.62133602e+00  4.23e-05 8.88e-16  2.42e-03     3s
+   5   8.50909421e+00  7.53833920e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.33554311e+00  8.30472055e+00  2.81e-08 4.44e-16  1.43e-05     3s
+   7   8.33284729e+00  8.33272053e+00  8.20e-11 2.22e-16  5.87e-08     3s
+   8   8.33282563e+00  8.33282562e+00  9.18e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.83 seconds (2.00 work units)
+Optimal objective 8.33282563e+00
+
+
+Root relaxation: objective 8.332826e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       8.3328256    8.33283  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.87 seconds (2.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.33283 31.5896 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.332825625001e+00, best bound 8.332825625001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:42:16 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211747 rows, 77908 columns and 589808 nonzeros
+Model fingerprint: 0xfb6db961
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211892 by 1.000000000
+
+Presolve removed 210740 rows and 76581 columns
+Presolve time: 2.73s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.1047914
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15576146e+03 -5.64487646e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.44015131e+01 -3.07643209e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.31569565e+01 -3.07758000e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.47202486e+01 -2.60013402e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.34433582e+00  4.10846842e+00  4.08e-05 3.11e-15  2.43e-03     3s
+   5   8.00087433e+00  7.00918830e+00  4.59e-06 4.44e-16  4.59e-04     3s
+   6   7.82547536e+00  7.78795518e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   7.82278705e+00  7.82260935e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   7.82275813e+00  7.82275812e+00  1.03e-11 2.22e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.96 seconds (2.09 work units)
+Optimal objective 7.82275813e+00
+
+
+Root relaxation: objective 7.822758e+00, 75 iterations, 0.05 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.82276    0    1   31.10479    7.82276  74.9%     -    2s
+H    0     0                       7.8227581    7.82276  0.00%     -    2s
+     0     0    7.82276    0    1    7.82276    7.82276  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 3.00 seconds (2.11 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 7.82276 31.1048 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.822758125001e+00, best bound 7.822758125001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:42:54 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211747 rows, 77908 columns and 589808 nonzeros
+Model fingerprint: 0xa83cddde
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211892 by 1.000000000
+
+Presolve removed 210740 rows and 76581 columns
+Presolve time: 2.69s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.2297921
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14690761e+03 -5.64471945e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.39473562e+01 -3.07627408e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.33235167e+01 -3.07620215e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.48528710e+01 -2.58730313e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.47916511e+00  4.24708845e+00  4.13e-05 3.55e-15  2.42e-03     3s
+   5   8.13387743e+00  7.16105364e+00  4.60e-06 4.44e-16  4.51e-04     3s
+   6   7.96045539e+00  7.92950317e+00  2.72e-08 2.22e-16  1.43e-05     3s
+   7   7.95774603e+00  7.95761925e+00  7.88e-11 4.44e-16  5.87e-08     3s
+   8   7.95772438e+00  7.95772437e+00  8.73e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.91 seconds (2.05 work units)
+Optimal objective 7.95772438e+00
+
+
+Root relaxation: objective 7.957724e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.95772    0    2   31.22979    7.95772  74.5%     -    2s
+H    0     0                       7.9577244    7.95772  0.00%     -    2s
+     0     0    7.95772    0    2    7.95772    7.95772  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.95 seconds (2.06 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 7.95772 31.2298 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.957724375001e+00, best bound 7.957724375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:43:33 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211827 rows, 77908 columns and 590048 nonzeros
+Model fingerprint: 0x6583fc0b
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R211972 by 1.000000000
+
+Presolve removed 210820 rows and 76581 columns
+Presolve time: 2.73s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.0133121
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.14930101e+03 -5.64494063e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.42457504e+01 -3.07648406e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.30971754e+01 -3.07833340e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.46354781e+01 -2.60894758e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   9.26268223e+00  4.03060716e+00  4.13e-05 8.88e-16  2.42e-03     3s
+   5   7.91739607e+00  6.94457130e+00  4.61e-06 2.50e-16  4.51e-04     3s
+   6   7.74397538e+00  7.71302329e+00  2.72e-08 4.44e-16  1.43e-05     3s
+   7   7.74126603e+00  7.74113925e+00  7.89e-11 2.22e-16  5.87e-08     3s
+   8   7.74124438e+00  7.74124437e+00  8.15e-12 2.22e-16  1.10e-13     3s
+
+Barrier solved model in 8 iterations and 2.93 seconds (2.09 work units)
+Optimal objective 7.74124438e+00
+
+
+Root relaxation: objective 7.741244e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.74124    0    1   31.01331    7.74124  75.0%     -    2s
+H    0     0                       7.7412444    7.74124  0.00%     -    2s
+     0     0    7.74124    0    1    7.74124    7.74124  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.98 seconds (2.11 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 7.74124 31.0133 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.741244375001e+00, best bound 7.741244375001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:44:11 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211859 rows, 77908 columns and 590144 nonzeros
+Model fingerprint: 0x6b914387
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212004 by 1.000000000
+
+Presolve removed 210852 rows and 76581 columns
+Presolve time: 2.63s
+Presolved: 1007 rows, 1327 columns, 4436 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 32.1178514
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.834e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.15255855e+03 -5.64372652e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.33000224e+01 -3.07527626e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.41906700e+01 -3.06707951e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.57488772e+01 -2.49780431e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.03826813e+01  5.14958291e+00  4.22e-05 2.78e-16  2.42e-03     3s
+   5   9.03731856e+00  8.06657147e+00  4.71e-06 2.22e-16  4.50e-04     3s
+   6   8.86376934e+00  8.83294744e+00  2.81e-08 4.44e-16  1.43e-05     3s
+   7   8.86107354e+00  8.86094678e+00  8.22e-11 2.22e-16  5.87e-08     3s
+   8   8.86105188e+00  8.86105187e+00  6.48e-12 2.22e-16  1.11e-13     3s
+
+Barrier solved model in 8 iterations and 2.83 seconds (2.00 work units)
+Optimal objective 8.86105188e+00
+
+
+Root relaxation: objective 8.861052e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.86105    0    3   32.11785    8.86105  72.4%     -    2s
+H    0     0                       8.8610519    8.86105  0.00%     -    2s
+     0     0    8.86105    0    3    8.86105    8.86105  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.87 seconds (2.01 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.86105 32.1179 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.861051875001e+00, best bound 8.861051875001e+00, gap 0.0000%
+
+Gurobi 10.0.2 (linux64) logging started Thu Feb 22 20:44:49 2024
+
+Set parameter LogFile to value "Error_Path30M"
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (linux64)
+
+CPU model: AMD EPYC 7763 64-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 211875 rows, 77908 columns and 590192 nonzeros
+Model fingerprint: 0x1799b581
+Variable types: 55968 continuous, 21940 integer (21578 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+05]
+  Objective range  [6e-02, 6e-02]
+  Bounds range     [1e+00, 3e+00]
+  RHS range        [1e-02, 3e+07]
+
+MIP start from previous solve did not produce a new incumbent solution
+MIP start from previous solve violates constraint R212020 by 1.000000000
+
+Presolve removed 210868 rows and 76581 columns
+Presolve time: 2.72s
+Presolved: 1007 rows, 1327 columns, 4437 nonzeros
+Variable types: 1148 continuous, 179 integer (179 binary)
+Found heuristic solution: objective 31.9163802
+Root barrier log...
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.835e+03
+ Factor NZ  : 2.553e+04 (roughly 1 MB of memory)
+ Factor Ops : 1.427e+06 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -1.13095874e+03 -5.64406583e+03  1.05e+02 8.33e-02  1.67e+01     3s
+   1  -2.26870922e+01 -3.07562488e+03  3.94e+00 8.31e-02  1.90e+00     3s
+   2   1.40775122e+01 -3.06942541e+02  4.75e-01 3.09e-03  1.72e-01     3s
+   3   1.55418741e+01 -2.51897156e+01  4.37e-02 1.55e-04  1.98e-02     3s
+   4   1.01559333e+01  4.92003370e+00  4.08e-05 1.33e-15  2.43e-03     3s
+   5   8.81246758e+00  7.82077179e+00  4.59e-06 2.22e-16  4.59e-04     3s
+   6   8.63706424e+00  8.59954219e+00  2.91e-08 2.22e-16  1.74e-05     3s
+   7   8.63437580e+00  8.63419809e+00  1.26e-10 2.22e-16  8.23e-08     3s
+   8   8.63434688e+00  8.63434687e+00  7.91e-12 4.44e-16  3.05e-13     3s
+
+Barrier solved model in 8 iterations and 2.93 seconds (2.09 work units)
+Optimal objective 8.63434688e+00
+
+
+Root relaxation: objective 8.634347e+00, 75 iterations, 0.04 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.63435    0    1   31.91638    8.63435  72.9%     -    2s
+H    0     0                       8.6343469    8.63435  0.00%     -    2s
+     0     0    8.63435    0    1    8.63435    8.63435  0.00%     -    2s
+
+Explored 1 nodes (75 simplex iterations) in 2.98 seconds (2.10 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 8.63435 31.9164 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 8.634346875001e+00, best bound 8.634346875001e+00, gap 0.0000%
